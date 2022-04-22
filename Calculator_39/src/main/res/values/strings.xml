@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="result">Result....</string>
+    <string name="ans">Ans</string>
+    <string name="clr">CLR</string>
+    <string name="eqal">=</string>
+    <string name="del">Del</string>
 </resources>
