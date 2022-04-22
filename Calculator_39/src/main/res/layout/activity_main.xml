@@ -7,97 +7,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/ansButton"
         android:layout_width="76sp"
         android:layout_height="48dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="236dp"
-        android:text="1"
+        android:layout_marginTop="80dp"
+        android:text="@string/ans"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="76sp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="236dp"
-        android:text="2"
-        app:layout_constraintStart_toEndOf="@+id/ansButton"
-        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
-
-    <Button
-        android:id="@+id/button3"
+        android:id="@+id/button9"
         android:layout_width="76dp"
         android:layout_height="48dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="236dp"
-        android:text="3"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="152dp"
+        android:text="9"
         app:layout_constraintStart_toEndOf="@+id/clrButton"
-        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
-
-    <Button
-        android:id="@+id/multiplyButton3"
-        android:layout_width="76dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="236dp"
-        android:text="*"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/delButton"
-        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="76sp"
-        android:layout_height="48dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="172dp"
-        android:text="4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
-
-    <Button
-        android:id="@+id/minusButton"
-        android:layout_width="76dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="172dp"
-        android:text="-"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/delButton"
-        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="76sp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="172dp"
-        android:text="5"
-        app:layout_constraintStart_toEndOf="@+id/ansButton"
-        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="76dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="172dp"
-        android:text="6"
-        app:layout_constraintStart_toEndOf="@+id/clrButton"
-        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="76sp"
-        android:layout_height="48dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="104dp"
-        android:text="7"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
     <Button
@@ -105,7 +31,7 @@
         android:layout_width="76dp"
         android:layout_height="48dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="152dp"
         android:text="+"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -117,41 +43,83 @@
         android:layout_width="76sp"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="152dp"
         android:text="8"
         app:layout_constraintStart_toEndOf="@+id/ansButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/minusButton"
         android:layout_width="76dp"
         android:layout_height="48dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="104dp"
-        android:text="9"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="224dp"
+        android:text="-"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/delButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="76sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="152dp"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/multiplyButton3"
+        android:layout_width="76dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="292dp"
+        android:text="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/delButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="76sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="292dp"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="76sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="224dp"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/dotButton"
+        android:layout_width="76dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="364dp"
+        android:text="."
         app:layout_constraintStart_toEndOf="@+id/clrButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
     <Button
-        android:id="@+id/clrButton"
-        android:layout_width="76sp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
-        android:text="@string/clr"
-        app:layout_constraintStart_toEndOf="@+id/ansButton"
-        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
-
-    <Button
-        android:id="@+id/equalButton"
+        android:id="@+id/button3"
         android:layout_width="76dp"
         android:layout_height="48dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="44dp"
-        android:text="@string/eqal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/delButton"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="292dp"
+        android:text="3"
+        app:layout_constraintStart_toEndOf="@+id/clrButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
     <Button
@@ -159,26 +127,100 @@
         android:layout_width="76dp"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="80dp"
         android:text="@string/del"
         app:layout_constraintStart_toEndOf="@+id/clrButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
     <Button
-        android:id="@+id/ansButton"
+        android:id="@+id/button6"
+        android:layout_width="76dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="224dp"
+        android:text="6"
+        app:layout_constraintStart_toEndOf="@+id/clrButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/divideButton"
+        android:layout_width="76dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="364dp"
+        android:text="/"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/delButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="76sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="364dp"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/ansButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="76sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="224dp"
+        android:text="5"
+        app:layout_constraintStart_toEndOf="@+id/ansButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/clrButton"
+        android:layout_width="76sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/clr"
+        app:layout_constraintStart_toEndOf="@+id/ansButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="76sp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="292dp"
+        android:text="2"
+        app:layout_constraintStart_toEndOf="@+id/ansButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/button00"
         android:layout_width="76sp"
         android:layout_height="48dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="44dp"
-        android:text="@string/ans"
+        android:layout_marginTop="364dp"
+        android:text="00"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
+
+    <Button
+        android:id="@+id/equalButton"
+        android:layout_width="76dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/eqal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/delButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
     <TextView
         android:id="@+id/resultContainer"
         android:layout_width="352dp"
         android:layout_height="153dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
         android:background="#3F51B5"
         android:text="@string/result"
         android:textAlignment="gravity"
