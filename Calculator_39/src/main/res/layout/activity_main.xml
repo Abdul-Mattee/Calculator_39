@@ -13,6 +13,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="80dp"
         android:text="@string/ans"
+        android:onClick="EvaluateExpression"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -23,6 +24,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="152dp"
         android:text="9"
+        android:onClick="setContainerValue"
         app:layout_constraintStart_toEndOf="@+id/clrButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -33,6 +35,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="152dp"
         android:text="+"
+        android:onClick="setContainerValue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/delButton"
@@ -45,6 +48,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="152dp"
         android:text="8"
+        android:onClick="setContainerValue"
         app:layout_constraintStart_toEndOf="@+id/ansButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -55,6 +59,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="224dp"
         android:text="-"
+        android:onClick="setContainerValue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/delButton"
@@ -67,6 +72,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="152dp"
         android:text="7"
+        android:onClick="setContainerValue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -77,6 +83,8 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="292dp"
         android:text="*"
+        android:onClick="setContainerValue"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/delButton"
@@ -89,6 +97,8 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="292dp"
         android:text="1"
+        android:onClick="setContainerValue"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -99,6 +109,8 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="224dp"
         android:text="4"
+        android:onClick="setContainerValue"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -109,6 +121,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="364dp"
         android:text="."
+        android:onClick="setContainerValue"
+
         app:layout_constraintStart_toEndOf="@+id/clrButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -119,6 +133,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="292dp"
         android:text="3"
+        android:onClick="setContainerValue"
         app:layout_constraintStart_toEndOf="@+id/clrButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -139,6 +154,8 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="224dp"
         android:text="6"
+        android:onClick="setContainerValue"
+
         app:layout_constraintStart_toEndOf="@+id/clrButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -149,6 +166,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="364dp"
         android:text="/"
+        android:onClick="setContainerValue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/delButton"
@@ -161,6 +179,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="364dp"
         android:text="0"
+        android:onClick="setContainerValue"
         app:layout_constraintStart_toEndOf="@+id/ansButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -171,6 +190,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="224dp"
         android:text="5"
+        android:onClick="setContainerValue"
+
         app:layout_constraintStart_toEndOf="@+id/ansButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -191,6 +212,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="292dp"
         android:text="2"
+        android:onClick="setContainerValue"
+
         app:layout_constraintStart_toEndOf="@+id/ansButton"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
@@ -201,6 +224,8 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="364dp"
         android:text="00"
+        android:onClick="setContainerValue"
+        android:value="00"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultContainer" />
 
