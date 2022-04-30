@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/Semester6/MC/Projects/Calculator_39/src/main/res/drawable/ic_launcher_background.xml" value="0.197" />
         <entry key="..\:/Semester6/MC/Projects/Calculator_39/src/main/res/drawable/ic_launcher_foreground.xml" value="0.197" />
-        <entry key="..\:/Semester6/MC/Projects/Calculator_39/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Semester6/MC/Projects/Calculator_39/src/main/res/layout-land/activity_main.xml" value="0.5" />
+        <entry key="..\:/Semester6/MC/Projects/Calculator_39/src/main/res/layout/activity_main.xml" value="0.49746192893401014" />
         <entry key="..\:/Semester6/MC/Projects/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
